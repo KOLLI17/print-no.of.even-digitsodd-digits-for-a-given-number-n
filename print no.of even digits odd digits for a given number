@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+class Test
+{
+public static void main(String arg[])
+{
+int i=12345,r=0; 
+while(i>0)
+{r=i%10;
+System.out.println(r);
+if(r%2==0)
+
+   System.out.println("even:"+r);
+else
+  System.out.println("odd"+r);
+i=i/10;
+}}}
+
+output
+5
+odd:5
+4
+even:4
+3
+odd:3
+2
+even:2
+1
+odd:1
